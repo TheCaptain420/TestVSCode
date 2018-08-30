@@ -1,0 +1,27 @@
+body {
+    max-width: 500px;
+    margin: auto;
+}
+body, html {
+    height: 100%;
+}
+
+body {
+    /* The image used */
+    background-image: url("http://gifimage.net/wp-content/uploads/2018/06/transparent-bubbles-gif-5.gif");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: yellow;
+}
