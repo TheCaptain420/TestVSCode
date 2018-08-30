@@ -1,5 +1,5 @@
 body {
-    max-width: 500px;
+    max-width: 1366px;
     margin: auto;
 }
 body, html {
@@ -23,5 +23,39 @@ h1 {
 }
 nav {
     text-align: center;
-    background-color: yellow;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(66, 66, 66);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-image: url("http://www.i2clipart.com/cliparts/6/4/e/0/12804564e077b7fd19e8902ee7096b07b43910.png");
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
